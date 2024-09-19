@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz with Sound Effects</title>
+  <link href="css/easy_history.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>EASY</h1>
+    <div class="quiz">
+      <h2 id="question">Who is the recent president of the Republic of the Philippines?</h2>
+      <div id="answer-buttons">
+        <button class="btn">Rodrigo Duterte</button>
+        <button class="btn">Ferdinand Marcos Sr</button>
+        <button class="btn">Alice Guo</button>
+        <button class="btn">Ferdinand Marcos Jr</button>
+      </div>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <!-- Sound elements for correct, wrong answers, score, and question -->
+  <audio id="correct-sound" src="sound/correct.mp3" preload="auto"></audio>
+  <audio id="wrong-sound" src="sound/wrong.mp3" preload="auto"></audio>
+  <audio id="score-sound" src="sound/score.mp3" preload="auto"></audio>
+  <audio id="question-sound" src="sound/question.mp3" preload="auto"></audio>
+
+  <script src="js/easy_history.js"></script>
+
+</body>
+</html>

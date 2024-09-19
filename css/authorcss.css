@@ -1,0 +1,37 @@
+p{
+	color: #3d0c02;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+body{
+  margin:0px;
+  padding:0px;
+  font-family:"Helvetica";
+  background: rgb(2,0,36);
+  background: rgb(238,174,202);
+   background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,233,184,1) 100%);
+ background-size:400%;
+  animation:beginani 15s infinite;
+}
+.text{
+  color:white;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  margin:250px 0px;
+  font-size:22px;
+}
+@keyframes beginani{
+  0%{
+    background-position:0% 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }

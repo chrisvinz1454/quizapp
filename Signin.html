@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Quiz App</title>
+    <link href="css/Signin.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <h1><u>WELCOME TO WORLD QUIZ APP</u></h1>
+    <h2>INFORMATION</h2>
+
+    <!-- User Info Form -->
+    <form action="level.html" method="post">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" required placeholder="Ex. Christian">
+        
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" required placeholder="Ex. Vinas">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" required placeholder="Ex. 18">
+        
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+	  <audio id="question-sound" src="sound/question.mp3" preload="auto"></audio>
+  <script src="js/Signin.js"></script>
+    <!-- About the Developer Form -->
+    <form action="author.html" method="get">
+        <input type="submit" name="aboutDeveloper" value="About the Developer">
+    </form>
+
+</body>  
+</html>
